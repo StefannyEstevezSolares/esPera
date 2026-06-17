@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiero Salir</title>
+
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body class="body">
+
+    <header class="header">
+
+        <div class="header__container">
+
+            <h1 class="header__logo">
+                esPera
+            </h1>
+
+            <p class="header__paragraph">
+                Toma decisiones inteligentes antes de gastar.
+            </p>
+
+            <nav class="nav">
+
+                <ul class="nav__list">
+
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="presupuesto.html" class="nav__link">
+                            Presupuesto
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="quieroSalir.html" class="nav__link">
+                            Quiero Salir
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="ahorro.html" class="nav__link">
+                            Ahorro
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main class="main">
+
+        <section class="outing">
+
+            <div class="outing__header">
+
+                <h1 class="section__title">
+                    🤔 ¿Planeas salir este mes?
+                </h1>
+
+                <p class="outing__description">
+                    Antes de gastar, hagamos un cálculo realista para saber si esta decisión está alineada con tu presupuesto y tus metas de ahorro.
+                </p>
+
+            </div>
+
+            <form class="outing__form">
+
+                <label class="outing__label">
+                    Seamos realistas, ¿cuánto planeas gastar en esta salida?
+                </label>
+
+                <input
+                    type="number"
+                    class="form__input"
+                    placeholder="Q 0.00"
+                >
+
+                <label class="outing__label">
+                    Siendo completamente honesto contigo mismo, ¿cuántas veces planeas salir así este mes?
+                </label>
+
+                <input
+                    type="number"
+                    class="form__input"
+                    placeholder="Ejemplo: 4"
+                >
+
+                <label class="outing__label">
+                    ¿Qué tipo de salida es?
+                </label>
+
+                <select class="form__input">
+
+                    <option>
+                        Selecciona una opción
+                    </option>
+
+                    <option>
+                        ☕ Café
+                    </option>
+
+                    <option>
+                        🍔 Comida
+                    </option>
+
+                    <option>
+                        🎬 Cine
+                    </option>
+
+                    <option>
+                        🛍 Compras
+                    </option>
+
+                    <option>
+                        🎉 Fiesta
+                    </option>
+
+                    <option>
+                        ✈️ Viaje
+                    </option>
+
+                    <option>
+                        🎮 Entretenimiento
+                    </option>
+
+                    <option>
+                        Otro
+                    </option>
+
+                </select>
+
+                <label class="outing__label">
+                    ¿Consideras que este gasto es una necesidad o un gusto?
+                </label>
+
+                <select class="form__input">
+
+                    <option>
+                        Necesidad
+                    </option>
+
+                    <option>
+                        Gusto
+                    </option>
+
+                </select>
+
+                <label class="outing__label">
+                    ¿Ya tienes dinero apartado para esta salida?
+                </label>
+
+                <select class="form__input">
+
+                    <option>
+                        Sí
+                    </option>
+
+                    <option>
+                        No
+                    </option>
+
+                </select>
+
+                <label class="outing__label">
+                    Si realizas este gasto, ¿afectará tu meta de ahorro?
+                </label>
+
+                <select class="form__input">
+
+                    <option>
+                        No
+                    </option>
+
+                    <option>
+                        Un poco
+                    </option>
+
+                    <option>
+                        Mucho
+                    </option>
+
+                </select>
+
+                <label class="outing__label">
+                    Describe brevemente la salida
+                </label>
+
+                <textarea
+                    class="outing__textarea"
+                    placeholder="Comida con amigos, cine, concierto, cumpleaños, paseo, etc."
+                ></textarea>
+
+                <button class="form__button">
+                    Analizar Salida
+                </button>
+
+            </form>
+
+        </section>
+
+        <section class="outing__result">
+
+            <h2 class="outing__result-title">
+                📊 Resultado del análisis
+            </h2>
+
+            <div class="outing__summary">
+
+                <div class="outing__summary-item">
+
+                    <h3>
+                        Costo por salida
+                    </h3>
+
+                    <p>
+                        Q 150
+                    </p>
+
+                </div>
+
+                <div class="outing__summary-item">
+
+                    <h3>
+                        Salidas planeadas
+                    </h3>
+
+                    <p>
+                        8
+                    </p>
+
+                </div>
+
+                <div class="outing__summary-item">
+
+                    <h3>
+                        Gasto mensual estimado
+                    </h3>
+
+                    <p>
+                        Q 1,200
+                    </p>
+
+                </div>
+
+                <div class="outing__summary-item">
+
+                    <h3>
+                        Impacto en el ahorro
+                    </h3>
+
+                    <p>
+                        Bajo
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="outing__feedback">
+
+                <h3>
+                    😊 Recomendación
+                </h3>
+
+                <p>
+                    Según esta simulación, puedes permitirte estas salidas sin comprometer tu presupuesto actual. Recuerda que disfrutar también es parte de una vida financiera saludable, siempre que exista un equilibrio.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
